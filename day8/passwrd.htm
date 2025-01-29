@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{text-align: center; width: 50%;  margin: 8%;background-color: rgb(243, 245, 247);}
+        input{width: 50%; height: 50%;}
+    </style>
+</head>
+<body><fieldset>
+    <h1><u><center>Reset Password</center></u></h1>
+    
+        <form action="">
+            <input id="opass" name="password" type="password" placeholder="old password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,15}"title="contains atleast one upper one lower one symbol one number and length of 8" required><br><br>
+        
+            <input id="npass" name="password" type="password" placeholder=" new password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,15}"title="contains atleast one upper one lower one symbol one number and length of 8" required><br><br>
+        
+            <input id="cpass" name="password" type="password" placeholder="conform password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,15}"title="contains atleast one upper one lower one symbol one number and length of 8" required><br><br>
+
+            <button>Reset Password</button>
+        </form>
+    </fieldset>
+</body>
+</html>
